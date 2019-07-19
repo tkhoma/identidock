@@ -5,7 +5,7 @@ identidock:
   environment:
     ENV: PROD
   volumes:
-    - /var/jenkins_home/workspace/identidock/app:/app
+    - /home/tkhoma/Work/projects/identijenk/workspace/app:/app
   links:
     - dnmonster
     - redis
