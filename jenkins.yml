@@ -4,6 +4,8 @@ identidock:
     - "9090"
   environment:
     ENV: PROD
+  volumes:
+    - /var/jenkins_home/workspace/identidock/app:/app
   links:
     - dnmonster
     - redis
